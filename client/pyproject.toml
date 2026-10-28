@@ -1,0 +1,10 @@
+[project]
+name = "ayon-deadline"
+description = "AYON Deadline addon."
+dynamic = ["version"]
+requires-python = ">=3.9"
+dependencies = [
+    "ayon-core",
+    "ayon-python-api",
+    "clique",
+]
